@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConcordionRunner.iml" filepath="$PROJECT_DIR$/ConcordionRunner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ConcordionRunner-grailsPlugins.iml" filepath="$PROJECT_DIR$/ConcordionRunner-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concordion-agora.iml" filepath="$PROJECT_DIR$/concordion-agora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concordion-agora-grailsPlugins.iml" filepath="$PROJECT_DIR$/concordion-agora-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
