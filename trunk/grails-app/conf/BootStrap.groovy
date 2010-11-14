@@ -71,7 +71,7 @@ class BootStrap {
     println "Creating admin user...";
     def userAdmin = ShiroUser.findByUsername("admin");
     if (!userAdmin) {
-      userAdmin = new ShiroUser(username: "admin", passwordHash: new Sha512Hash("admin").toHex(), email: "sguimont@iscopia.com")
+      userAdmin = new ShiroUser(username: "admin", passwordHash: new Sha512Hash("admin").toHex(), email: "test@test.com")
       userAdmin.addToRoles(adminRole);
       userAdmin.addToRoles(editorRole);
       userAdmin.addToPermissions("*:*")
@@ -81,7 +81,7 @@ class BootStrap {
     println "Creating editor user...";
     def editorViewer = ShiroUser.findByUsername("editor");
     if (!editorViewer) {
-      editorViewer = new ShiroUser(username: "editor", passwordHash: new Sha512Hash("editor").toHex(), email: "sguimont@iscopia.com")
+      editorViewer = new ShiroUser(username: "editor", passwordHash: new Sha512Hash("editor").toHex(), email: "test@test.com")
       editorViewer.addToPermissions("*:*")
       editorViewer.addToRoles(editorRole);
       editorViewer.save()
@@ -90,7 +90,7 @@ class BootStrap {
     println "Creating view user...";
     def userViewer = ShiroUser.findByUsername("viewer");
     if (!userViewer) {
-      userViewer = new ShiroUser(username: "viewer", passwordHash: new Sha512Hash("viewer").toHex(), email: "sguimont@iscopia.com")
+      userViewer = new ShiroUser(username: "viewer", passwordHash: new Sha512Hash("viewer").toHex(), email: "test@test.com")
       userViewer.addToPermissions("*:*")
       userViewer.save()
     }
@@ -98,7 +98,7 @@ class BootStrap {
     println "Creating viewer workspaces...";
     def viewerWorkspace = Workspace.findByIdentifier("VIEWER-PORTAL");
     if (!viewerWorkspace) {
-      viewerWorkspace = new Workspace(code: "PORTAL", name: "Portal", user: userViewer, builder: mavenBuilder, sourceRepository: svnSourceRepository, sourceRepositoryUrl: "https://hrasvn1.hra.local/svn/development/V3/portal/trunk/Business/Java/portal-specifications", sourceRepositoryUsername: "seguimont", sourceRepositoryPassword: "Salut000", specificationRootFolder: "src/test/specs", specificationResultFolder: "target/concordion")
+      viewerWorkspace = new Workspace(code: "PORTAL", name: "Portal", user: userViewer, builder: mavenBuilder, sourceRepository: svnSourceRepository, sourceRepositoryUrl: "https://test/test/trunk", sourceRepositoryUsername: "seguimont", sourceRepositoryPassword: "test", specificationRootFolder: "src/test/specs", specificationResultFolder: "target/concordion")
       viewerWorkspace.generateIdentifier();
       viewerWorkspace.save()
     }
@@ -106,13 +106,13 @@ class BootStrap {
     println "Creating admin workspaces...";
     def masterWorkspace = Workspace.findByIdentifier("ADMIN-MASTER");
     if (!masterWorkspace) {
-      masterWorkspace = new Workspace(code: "MASTER", name: "Master", user: userAdmin, builder: mavenBuilder, sourceRepository: svnSourceRepository, sourceRepositoryUrl: "https://hrasvn1.hra.local/svn/Development/V3/portal/trunk", sourceRepositoryUsername: "seguimont", sourceRepositoryPassword: "Salut000", specificationRootFolder: "src/test/resources", specificationResultFolder: "target/concordion")
+      masterWorkspace = new Workspace(code: "MASTER", name: "Master", user: userAdmin, builder: mavenBuilder, sourceRepository: svnSourceRepository, sourceRepositoryUrl: "https://test/test/trunk", sourceRepositoryUsername: "test", sourceRepositoryPassword: "test", specificationRootFolder: "src/test/resources", specificationResultFolder: "target/concordion")
       masterWorkspace.generateIdentifier();
       masterWorkspace.save()
     }
     def testWorkspace = Workspace.findByIdentifier("ADMIN-TEST");
     if (!testWorkspace) {
-      testWorkspace = new Workspace(code: "TEST", name: "Test", user: userAdmin, builder: mavenBuilder, sourceRepository: svnSourceRepository, sourceRepositoryUrl: "https://hrasvn1.hra.local/svn/Development/V3/Spikes/sguimont/specifications", sourceRepositoryUsername: "seguimont", sourceRepositoryPassword: "Salut000", specificationRootFolder: "src/test/resources", specificationResultFolder: "target/concordion")
+      testWorkspace = new Workspace(code: "TEST", name: "Test", user: userAdmin, builder: mavenBuilder, sourceRepository: svnSourceRepository, sourceRepositoryUrl: "https:/test/sguimont/specifications", sourceRepositoryUsername: "seguimont", sourceRepositoryPassword: "test", specificationRootFolder: "src/test/resources", specificationResultFolder: "target/concordion")
       testWorkspace.generateIdentifier();
       testWorkspace.save()
 
