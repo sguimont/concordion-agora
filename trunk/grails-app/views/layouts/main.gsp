@@ -9,7 +9,9 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="${resource(dir: 'images', file: 'favicon.ico')}"/>
 
-  <link rel="stylesheet" type="text/css" href="${resource(dir: 'css/humanity', file: 'jquery-ui-1.8rc3.custom.css')}"/>
+  <g:javascript library="jquery"/>
+  <jqui:resources theme="humanity" />
+
   <link rel="stylesheet" type="text/css" href="${resource(dir: 'css/treeview', file: 'jquery.treeview.css')}"/>
   <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'main.css')}"/>
   <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'styles.css')}"/>
@@ -20,8 +22,6 @@
   <!--[if lte IE 8]> <link rel="stylesheet" type="text/css" href="${resource(dir: 'css/form', file: 'ie.css')}"/></script><![endif]-->
   <link rel="stylesheet" type="text/css" href="${resource(dir: 'css/form', file: 'screen.css')}"/>
 
-  <g:javascript library="jquery"/>
-  <script language="javascript" type="text/javascript" src="${resource(dir: 'js/jquery', file: 'jquery-ui-1.8rc3.custom.min.js')}"></script>
 
   <script language="javascript" type="text/javascript" src="${resource(dir: 'js/jquery', file: 'jquery.jqplot.js')}"></script>
   <script language="javascript" type="text/javascript" src="${resource(dir: 'js/jquery/jqplot-plugins', file: 'jqplot.categoryAxisRenderer.js')}"></script>
