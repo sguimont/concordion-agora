@@ -10,7 +10,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="${resource(dir: 'images', file: 'favicon.ico')}"/>
 
   <g:javascript library="jquery"/>
-  <jqui:resources />
+  <jqui:resources theme="humanity" />
 
   <link rel="stylesheet" type="text/css" href="${resource(dir: 'css/treeview', file: 'jquery.treeview.css')}"/>
   <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'main.css')}"/>
