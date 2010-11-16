@@ -15,34 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="c69df3b3-c3f6-4cb9-8324-0e4e8863e775" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/jquery-ui" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-icons_ff7519_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_highlight-hard_100_f4f0ec_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\js\jquery\jquery-ui-1.8rc3.custom.min.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity" afterPath="$PROJECT_DIR$/web-app/jquery-ui/themes/humanity" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-icons_cb672b_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/css/humanity/images" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_glass_70_ede4d4_1x400.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-icons_f08000_256x240.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concordion-agora-grailsPlugins.iml" afterPath="$PROJECT_DIR$/concordion-agora-grailsPlugins.iml" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-icons_f35f07_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-icons_c47a23_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_highlight-hard_65_fee4bd_1x100.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/jquery/jquery-1.4.3.min.js" afterPath="$PROJECT_DIR$/web-app/js/jquery/jquery-1.4.3.min.js" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_flat_75_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_glass_100_f5f0e5_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_highlight-hard_75_f5f5b5_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\jquery-ui-1.8rc3.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_inset-soft_100_f4f0ec_1x100.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/jquery/jquery-1.4.3.js" afterPath="$PROJECT_DIR$/web-app/js/jquery/jquery-1.4.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/jquery-ui/themes/humanity/jquery-ui-1.8.4.custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concordion-agora.iml" afterPath="$PROJECT_DIR$/concordion-agora.iml" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\jquery-ui\themes\humanity\jquery-ui-1.8rc3.custom.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="DELETED" beforePath="C:\work\grails-projects\concordion-agora\web-app\css\humanity\images\ui-bg_glass_25_cb842e_1x400.png" afterPath="" />
     </list>
     <ignored path="devDB.properties" />
     <ignored path="devDB.log" />
@@ -175,158 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui-1.8.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui-1.8.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui-1.8.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smoothness" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concordion-agora-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui-1.8.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -672,7 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.4375">
+        <state line="12" column="18" selection-start="490" selection-end="490" vertical-scroll-proportion="-4.501838">
           <folding />
         </state>
       </provider>
