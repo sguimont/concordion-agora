@@ -121,7 +121,6 @@
       e.preventDefault();
 
       $('#resultPane').empty();
-      $('#resultPane').hide();
       $('#message').hide();
       $('#message').empty();
 
@@ -316,10 +315,18 @@
 
   <div id="specifications" class="ui-tabs-hide">
 
-    <div id="editorPane" style="float: left;">
+      <div id="trees" class="dialog" style="float:left; width: 400px; height: 200px; margin-top: 20px; overflow-y:auto; overflow-x:hidden; background-color: white; border: 1px solid gray;">
+        <ul id="contents" class="filetree treeview-famfamfam"></ul>
+      </div>
+
+      <div id="resultPane" style="float: left; width: 750px; height: 200px;  margin-left: 20px; margin-top: 20px;overflow-y:auto; overflow-x:hidden; background-color: white; border: 1px solid gray;"></div>
+
+	  <div style="clear: both;"></div>
+
+	  <div id="editorPane" style="float: left;">
       <div id="message" class="message" style="display:none;"></div>
 
-      <div id="specTabs" style="width: 90%;height: 450px;" class="ui-tabs">
+      <div id="specTabs" style="width: 1180px;height: 450px;margin-top: 10px;" class="ui-tabs">
         <ul>
           <li><a href="#editorTab"><span>Specification</span></a></li>
           <li><a href="#previewTab"><span>Results</span></a></li>
@@ -329,7 +336,7 @@
           <g:form name="editorForm" controller="workspaces" action="save" style="display: none;">
             <g:hiddenField name="id" value="${workspace.identifier}"/>
             <g:hiddenField name="path"/>
-            <textarea id="editor" name="editor" style="width: 90%; height: 90%; padding: 5px; margin: 5px;" class="tinymce">
+            <textarea id="editor" name="editor" style="width: 95%; height: 95%; padding: 5px; margin: 5px;" class="tinymce">
             </textarea>
 
             <div class="actions" style="margin-top: 10px;">
@@ -354,11 +361,6 @@
       <shiro:hasRole name="Editor">
         <input id="addTest" type="button" style="margin-top: 20px;" value="Add Specification"/>
       </shiro:hasRole>
-      <div id="trees" class="dialog" style="float:left; width: 400px; height: 300px; margin-top: 20px; overflow-y:auto; overflow-x:hidden; background-color: white; border: 1px solid gray;">
-        <ul id="contents" class="filetree treeview-famfamfam"></ul>
-      </div>
-
-      <div id="resultPane" style="float: left; width: 750px; height: 300px;  margin-left: 20px; margin-top: 20px;overflow-y:auto; overflow-x:hidden; background-color: white; border: 1px solid gray;"></div>
     </div>
 
     <div style="clear: both;"></div>
